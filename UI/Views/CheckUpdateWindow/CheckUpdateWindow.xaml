@@ -1,0 +1,19 @@
+﻿<Window x:Class="OnlineService.UI.Views.CheckUpdateWindow.CheckUpdateWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnlineService.UI.Views.CheckUpdateWindow"
+        mc:Ignorable="d"
+        Title="更新プログラムを確認" Height="400" Width="300"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Name="btUpdate" Content="アップデート" HorizontalAlignment="Center" Margin="0,290,0,0" VerticalAlignment="Top" Width="150" Height="36" Click="btUpdate_Click"/>
+        <Label Content="バージョン:" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.491,1.065" FontSize="14"/>
+        <Label Name="lbNew" Content="最新バージョン:" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.491,1.065" FontSize="14"/>
+        <Label Name="lbCurrentVersion" HorizontalAlignment="Left" Margin="189,148,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Name="lbNewVersion" HorizontalAlignment="Left" Margin="189,192,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Name="lbHeader" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" FontSize="18"/>
+    </Grid>
+</Window>

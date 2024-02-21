@@ -1,0 +1,20 @@
+{
+  "host": "127.0.0.1",
+  "listXmlPathEndpointDev": "https://localhost:7286/api/SystemConf/GetSystemConfListXmlPath?GrpCd={0}&Machine={1}&IsKensaIrai={2}",
+  "AuthEndpointDev": "https://localhost:7286/api/Auth/Authentication",
+  "LoginEndpointDev": "https://localhost:7286/api/Auth/AppToken",
+  "WriteLogEndpointDev": "https://localhost:7286/api/Logging/WriteListLog",
+  "UpdateSignalRPortEndpointDev": "https://localhost:7286/api/SmartKartePort/UpdatePort",
+  "GetSignalRPortEndpointDev": "https://localhost:7286/api/SmartKartePort/GetPort?MachineName={0}&Ip={1}",
+  "listXmlPathEndpointStg": "https://smartkarte-api.sotatek.works/api/SystemConf/GetSystemConfListXmlPath?GrpCd={0}&Machine={1}&IsKensaIrai={2}",
+  "AuthEndpointStg": "https://smartkarte-api.sotatek.works/api/Auth/Authentication",
+  "LoginEndpointStg": "https://smartkarte-api.sotatek.works/api/Auth/AppToken",
+  "WriteLogEndpointStg": "https://smartkarte-api.sotatek.works/api/Logging/WriteListLog",
+  "UpdateSignalRPortEndpointStag": "https://smartkarte-api.sotatek.works/api/SmartKartePort/UpdatePort",
+  "GetSignalRPortEndpointStag": "https://smartkarte-api.sotatek.works/api/SmartKartePort/GetPort?MachineName={0}&Ip={1}",
+  "timeout": 300000,
+  "bufferSize": 1024,
+  "encoding": "shift_jis",
+  "pathAppCloud": "https://smarkarte-app.s3.ap-southeast-1.amazonaws.com/installer/SmartKarteApp.exe",
+  "pathVersionCloud": "https://smarkarte-app.s3.ap-southeast-1.amazonaws.com/installer/SmartKarteApp_Version.txt"
+}

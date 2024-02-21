@@ -1,0 +1,109 @@
+﻿<Window x:Class="OnlineService.UI.Views.LoginWindow.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnlineService.UI.Views.LoginWindow"
+        mc:Ignorable="d"
+        Title="ログイン" 
+        Height="390" 
+        Width="290"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Grid.Row="1" Margin=" 30 10 30 0 ">
+            <Image Height="55">
+                <Image.Source>
+                    <DrawingImage>
+                        <DrawingImage.Drawing>
+                            <DrawingGroup>
+                                <DrawingGroup.Children>
+                                    <GeometryDrawing Geometry="F1 M 526.193,6.09204L 581.776,25.3414L 569.795,94.4694L 712.444,0L 526.193,6.09204 Z ">
+                                        <GeometryDrawing.Brush>
+                                            <LinearGradientBrush StartPoint="1.0164,0.483092"
+                          EndPoint="4.76973,0.483092">
+                                                <LinearGradientBrush.RelativeTransform>
+                                                    <TransformGroup>
+                                                        <SkewTransform CenterX="1.0164"
+                                CenterY="0.483092"
+                                AngleX="-0.735868"
+                                AngleY="0" />
+                                                        <RotateTransform CenterX="1.0164"
+                                  CenterY="0.483092"
+                                  Angle="179.009" />
+                                                    </TransformGroup>
+                                                </LinearGradientBrush.RelativeTransform>
+                                                <LinearGradientBrush.GradientStops>
+                                                    <GradientStop Color="#FF2CA5DF"
+                           Offset="0" />
+                                                    <GradientStop Color="#FF172987"
+                           Offset="1" />
+                                                </LinearGradientBrush.GradientStops>
+                                            </LinearGradientBrush>
+                                        </GeometryDrawing.Brush>
+                                    </GeometryDrawing>
+                                    <GeometryDrawing Geometry="F1 M 300.195,13.4827L 444.984,63.628L 422.759,191.84L 532.773,118.987L 545.273,46.876L 436.031,9.04132L 300.195,13.4827 Z ">
+                                        <GeometryDrawing.Brush>
+                                            <LinearGradientBrush StartPoint="1.69593,0.488312"
+                          EndPoint="4.5481,0.488312">
+                                                <LinearGradientBrush.RelativeTransform>
+                                                    <TransformGroup>
+                                                        <SkewTransform CenterX="1.69593"
+                                CenterY="0.488312"
+                                AngleX="-0.298928"
+                                AngleY="0" />
+                                                        <RotateTransform CenterX="1.69593"
+                                  CenterY="0.488312"
+                                  Angle="179.326" />
+                                                    </TransformGroup>
+                                                </LinearGradientBrush.RelativeTransform>
+                                                <LinearGradientBrush.GradientStops>
+                                                    <GradientStop Color="#FF2CA5DF"
+                           Offset="0" />
+                                                    <GradientStop Color="#FF172987"
+                           Offset="1" />
+                                                </LinearGradientBrush.GradientStops>
+                                            </LinearGradientBrush>
+                                        </GeometryDrawing.Brush>
+                                    </GeometryDrawing>
+                                    <GeometryDrawing Geometry="F1 M 0,23.3L 283.261,121.399L 251.38,305.333L 385.74,216.357L 408.48,85.1587L 210.031,16.432L 0,23.3 Z ">
+                                        <GeometryDrawing.Brush>
+                                            <LinearGradientBrush StartPoint="1.75406,0.484152"
+                          EndPoint="3.46531,0.484152">
+                                                <LinearGradientBrush.RelativeTransform>
+                                                    <TransformGroup>
+                                                        <SkewTransform CenterX="1.75406"
+                                CenterY="0.484152"
+                                AngleX="-0.355126"
+                                AngleY="0" />
+                                                        <RotateTransform CenterX="1.75406"
+                                  CenterY="0.484152"
+                                  Angle="179.289" />
+                                                    </TransformGroup>
+                                                </LinearGradientBrush.RelativeTransform>
+                                                <LinearGradientBrush.GradientStops>
+                                                    <GradientStop Color="#FF2CA5DF"
+                           Offset="0" />
+                                                    <GradientStop Color="#FF172987"
+                           Offset="1" />
+                                                </LinearGradientBrush.GradientStops>
+                                            </LinearGradientBrush>
+                                        </GeometryDrawing.Brush>
+                                    </GeometryDrawing>
+                                </DrawingGroup.Children>
+                            </DrawingGroup>
+                        </DrawingImage.Drawing>
+                    </DrawingImage>
+                </Image.Source>
+            </Image>
+            <TextBlock Foreground="#0b77d6"  Text="スマートクリニック" VerticalAlignment="Center" HorizontalAlignment="Center" FontWeight="Bold" FontFamily="Arial" FontSize="20" FontStyle="Italic"  />
+            <Label Content="ログインID" Foreground="#FF285AAA"/>
+            <TextBox x:Name="txtUser" BorderBrush="#FFA0A0A0" Foreground="#FF363636" Height="30" MaxLength="20"
+              VerticalContentAlignment="Center"/>
+            <Label Content="パスワード" Foreground="#FF285AAA"/>
+            <PasswordBox x:Name="txtPassword" BorderBrush="#FFA0A0A0" Foreground="#FF363636" Height="30" MaxLength="20"
+              VerticalContentAlignment="Center"/>
+            <Button x:Name="btnLogin" Content="ログイン" BorderBrush="#FFADADAD" Width="150" Height="30" Margin="0,25,0,0" TabIndex="3" Click="btnLogin_Click"/>
+        </StackPanel>      
+    </Grid>
+</Window>

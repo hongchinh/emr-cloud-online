@@ -1,0 +1,24 @@
+﻿<Window x:Class="OnlineService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OnlineService"
+        mc:Ignorable="d"
+        Title="スマートクリニック" Height="450" Width="800" WindowStartupLocation="CenterScreen"
+        Closing="OnClose" ResizeMode="NoResize">
+    <Grid Margin="0,0,0,-6">
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_メニュー">
+                    <MenuItem Header="_ログアウト" Click="btnLogout_Click">
+                        <MenuItem.Icon>
+                            <Image Source="/Resources/logout.ico" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <Label Content="timeVersion" Name="lblTimeVersion" HorizontalAlignment="Left" Margin="605,385,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.607,0.194"/>
+    </Grid>
+</Window>

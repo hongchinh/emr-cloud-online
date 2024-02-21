@@ -1,0 +1,1 @@
+Import-Certificate -FilePath  Cert\localhost.crt -CertStoreLocation cert:\CurrentUser\Root
